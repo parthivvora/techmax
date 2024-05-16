@@ -1,0 +1,32 @@
+[
+  {
+    "title": "IT solution",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim",
+    "icon": "pe-7s-tools"
+  },
+  {
+    "title": "Web Development",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim",
+    "icon": "pe-7s-display1"
+  },
+  {
+    "title": "Networking Services",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim",
+    "icon": "pe-7s-share"
+  },
+  {
+    "title": "SEO Optimization",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim",
+    "icon": "pe-7s-graph1"
+  },
+  {
+    "title": "App Optimization",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim",
+    "icon": "pe-7s-config"
+  },
+  {
+    "title": "Data Recovery",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim",
+    "icon": "pe-7s-server"
+  }
+]

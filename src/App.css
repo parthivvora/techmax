@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --light-blue: #5e87eb;
+  --text-color: #333;
+  --hover-bg-color: #3e57d0;
+  --paragraph-text-color: #404040;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+}
+
+.title-part h6 {
+  color: var(--light-blue);
+}
+
+.title-part h1 {
+  color: var(--text-color);
+}
+
+.title-part p,
+.home-section .service-part .service-content-box p,
+.home-section .web-solution .web-solution-box p {
+  color: var(--paragraph-text-color);
+}
+
+/* --------------------------------------------- Header --------------------------------------------- */
+.navbar .login-btn {
+  background-color: var(--light-blue);
+  transition: 0.3s ease-in-out;
+}
+
+.navbar .login-btn:hover {
+  background-color: var(--hover-bg-color);
+}
+
+/* --------------------------------------------- Home --------------------------------------------- */
+.home-section .hero-part .title-part h1 span,
+.home-section .service-part .service-content-box i {
+  color: var(--light-blue);
+}
+
+.home-section .hero-part .title-part .buttons-group a:first-child {
+  box-shadow: 0 7px 25px rgb(123, 104, 238, 0.25);
+  color: var(--light-blue);
+  transition: 0.4s;
+}
+
+.home-section .hero-part .title-part .buttons-group a:last-child {
+  background-color: var(--light-blue);
+  transition: 0.4s;
+}
+
+.home-section .hero-part .title-part .buttons-group a:first-child:hover {
+  color: white;
+}
+
+.home-section .hero-part .title-part .buttons-group a:hover {
+  background-color: var(--hover-bg-color);
+}
+
+.home-section .service-part .row > div:nth-child(-n + 3) {
+  margin-bottom: 1.5rem;
+}
+
+.home-section .service-part .service-content-box {
+  box-shadow: 0px 5px 30px 0px rgb(110, 123, 197, 0.12);
+  transition: 0.5s ease-in-out;
+}
+.home-section .service-part .service-content-box:hover {
+  background: linear-gradient(-135deg, #611bdd 0%, #5e87eb 100%);
+  transform: translateY(-6px);
+}
+
+.home-section .service-part .service-content-box:hover h1,
+.home-section .service-part .service-content-box:hover p,
+.home-section .service-part .service-content-box:hover a {
+  color: white;
+}
+.home-section .service-part .service-content-box:hover .img-box {
+  background-color: white;
+}
+
+.home-section .service-part .service-content-box .img-box {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(232, 235, 255, 0.5);
+  border-radius: 20px 20px 20px 5px;
+}
+.home-section .service-part .service-content-box a {
+  color: var(--hover-bg-color);
+}
+
+.home-section .web-solution-part {
+  background-color: rgb(215, 215, 215, 0.17);
+}
