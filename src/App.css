@@ -201,3 +201,12 @@ body {
   visibility: visible;
   transform: scaleX(1);
 }
+
+.home-section .client-review-part {
+  background-color: rgb(215, 215, 215, 0.17);
+}
+
+.client-review-box img{
+  width: 6rem !important;
+  border: 5px solid #f8f8f8;
+}

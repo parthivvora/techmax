@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Stanley Tate",
+    "designation": "Web Developer",
+    "image": "testimonial-1.jpg",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation."
+  },
+  {
+    "name": "Lana Shelton",
+    "designation": "Architect",
+    "image": "testimonial-2.jpg",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation."
+  },
+  {
+    "name": "Mario Houston",
+    "designation": "Social Worker",
+    "image": "testimonial-3.jpg",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation."
+  }
+]

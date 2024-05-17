@@ -3,7 +3,7 @@ import teamMemberData from "../data/teamMemberData.json";
 
 function TeamMember() {
   return (
-    <div className="container mb-20">
+    <div className="container">
       <div className="row">
         {teamMemberData?.map((member, index) => (
           <div className="col-lg-3 col-md-3 col-sm-12" key={index}>
