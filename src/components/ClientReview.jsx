@@ -10,8 +10,8 @@ function ClientReview() {
     margin: 20,
     autoplay: true,
     dots: false,
-    autoplayTimeout: 1200,
-    autoplaySpeed: 500,
+    autoplayTimeout: 1800,
+    autoplaySpeed: 1000,
     responsive: {
       0: {
         items: 2,

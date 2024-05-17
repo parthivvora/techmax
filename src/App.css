@@ -32,7 +32,8 @@ body {
 }
 
 /* --------------------------------------------- Header --------------------------------------------- */
-.navbar .login-btn {
+.navbar .login-btn,
+.home-section .pricing-plan-part .pricing-plan-box .get-started-btn {
   background-color: var(--light-blue);
   transition: 0.3s ease-in-out;
 }
@@ -43,7 +44,8 @@ body {
 
 /* --------------------------------------------- Home --------------------------------------------- */
 .home-section .hero-part .title-part h1 span,
-.service-part .service-content-box i {
+.service-part .service-content-box i,
+.home-section .pricing-plan-part .pricing-plan-box .plan-price {
   color: var(--light-blue);
 }
 
@@ -206,7 +208,32 @@ body {
   background-color: rgb(215, 215, 215, 0.17);
 }
 
-.client-review-box img{
+.client-review-box img {
   width: 6rem !important;
   border: 5px solid #f8f8f8;
+}
+
+.home-section .pricing-plan-part .pricing-plan-box {
+  box-shadow: -1px 3px 20px 0px rgba(75, 81, 91, 0.1);
+}
+
+.home-section .pricing-plan-part .pricing-plan-box .pricing-details-menu li i {
+  color: #6f64e7;
+}
+
+.home-section
+  .pricing-plan-part
+  .pricing-plan-box
+  .pricing-details-menu
+  li.delete-detail {
+  color: #b7b7b7;
+}
+
+.home-section
+  .pricing-plan-part
+  .pricing-plan-box
+  .pricing-details-menu
+  li.delete-detail
+  i {
+  color: #ff9aa0;
 }
