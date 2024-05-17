@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Lewis Lucas",
+    "designation": "IT Manager",
+    "image": "team-1.jpg"
+  },
+  {
+    "name": "Arturo Fuller",
+    "designation": "Service Manager",
+    "image": "team-2.jpg"
+  },
+  {
+    "name": "Velma Cain",
+    "designation": "Managing Director",
+    "image": "team-3.jpg"
+  },
+  {
+    "name": "Marc Gibbs",
+    "designation": "Executive Assistant",
+    "image": "team-4.jpg"
+  }
+]
