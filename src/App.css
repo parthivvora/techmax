@@ -100,3 +100,35 @@ body {
 .home-section .web-solution-part {
   background-color: rgb(215, 215, 215, 0.17);
 }
+
+.home-section .web-solution-part ul li:first-child {
+  background: linear-gradient(-135deg, #611bdd 0%, #5e87eb 100%);
+}
+
+.home-section .web-solution-part ul li {
+  border-radius: 0px 0px 10px 0px;
+  border-left: 2px solid #5e87eb;
+  position: relative;
+}
+
+.home-section .web-solution-part ul li::before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 0%;
+  height: 100%;
+  transition: 0.5s;
+  background: linear-gradient(-135deg, #611bdd 0%, #5e87eb 100%);
+  border-radius: 0px 0px 10px 0px;
+  z-index: -1;
+}
+
+.home-section .web-solution-part ul li:hover:before {
+  width: 100%;
+}
+
+.home-section .web-solution-part ul li:hover {
+  color: white;
+  transition: 0.5s;
+}
