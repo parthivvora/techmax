@@ -215,7 +215,17 @@ function Home() {
           </div>
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-12">
-              <div className="pricing-plan-box bg-white px-10 py-5 rounded-md">
+              <motion.div
+                initial={{ opacity: 0, y: -200 }}
+                transition={{
+                  duration: 1,
+                  ease: "easeIn",
+                  type: "spring",
+                  stiffness: 100,
+                  damping: 6,
+                }}
+                whileInView={{ opacity: 1, y: 0 }}
+                className="pricing-plan-box bg-white px-10 py-5 rounded-md flex flex-col gap-4 items-center">
                 <h1 className="text-2xl font-semibold capitalize">startup</h1>
                 <div className="price-content flex items-end gap-1">
                   <span className="font-medium">$</span>
@@ -224,11 +234,11 @@ function Home() {
                 </div>
                 <a
                   href="#"
-                  className="get-started-btn text-balance font-medium text-white capitalize w-full block rounded-full py-3 text-center"
+                  className="get-started-btn text-balance font-medium text-white capitalize w-full block rounded-full py-3 text-center mt-3"
                 >
                   get started
                 </a>
-                <ul className="pricing-details-menu">
+                <ul className="pricing-details-menu flex flex-col gap-2">
                   <li className="text-lg flex items-center gap-2">
                     <i className="fa-solid fa-circle-check text-lg" />
                     Web Development
@@ -262,7 +272,127 @@ function Home() {
                     <del>Help center access</del>
                   </li>
                 </ul>
-              </div>
+              </motion.div>
+            </div>
+            <div className="col-lg-4 col-md-4 col-sm-12">
+              <motion.div initial={{ opacity: 0, y: -200 }}
+                transition={{
+                  duration: 1,
+                  ease: "easeIn",
+                  type: "spring",
+                  stiffness: 100,
+                  damping: 6,
+                  delay: 0.2
+                }}
+                whileInView={{ opacity: 1, y: 0 }}
+                className="pricing-plan-box bg-white px-10 py-5 rounded-md flex flex-col gap-4 items-center">
+                <h1 className="text-2xl font-semibold capitalize">standard</h1>
+                <div className="price-content flex items-end gap-1">
+                  <span className="font-medium">$</span>
+                  <h1 className="plan-price text-5xl font-bold">50</h1>
+                  <span className="font-medium">/ per month</span>
+                </div>
+                <a
+                  href="#"
+                  className="get-started-btn text-balance font-medium text-white capitalize w-full block rounded-full py-3 text-center mt-3"
+                >
+                  get started
+                </a>
+                <ul className="pricing-details-menu flex flex-col gap-2">
+                  <li className="text-lg flex items-center gap-2">
+                    <i className="fa-solid fa-circle-check text-lg" />
+                    Web Development
+                  </li>
+                  <li className="text-lg flex items-center gap-2">
+                    <i className="fa-solid fa-circle-check text-lg" />
+                    Personal Use
+                  </li>
+                  <li className="text-lg flex items-center gap-2">
+                    <i className="fa-solid fa-circle-check text-lg" />
+                    Unlimited Projects
+                  </li>
+                  <li className="text-lg flex items-center gap-2">
+                    <i className="fa-solid fa-circle-check text-lg" />
+                    Project Management
+                  </li>
+                  <li className="text-lg flex items-center gap-2">
+                    <i className="fa-solid fa-circle-check text-lg" />
+                    27/7 Support
+                  </li>
+                  <li className="text-lg flex items-center gap-2">
+                    <i className="fa-solid fa-circle-check text-lg" />
+                    Free Cancelation
+                  </li>
+                  <li className="text-lg flex items-center gap-2 delete-detail">
+                    <i className="fa-solid fa-circle-xmark text-lg" />
+                    <del>Basic support on Github</del>
+                  </li>
+                  <li className="text-lg flex items-center gap-2 delete-detail">
+                    <i className="fa-solid fa-circle-xmark text-lg" />
+                    <del>Help center access</del>
+                  </li>
+                </ul>
+              </motion.div>
+            </div>
+            <div className="col-lg-4 col-md-4 col-sm-12">
+              <motion.div initial={{ opacity: 0, y: -200 }}
+                transition={{
+                  duration: 1,
+                  ease: "easeIn",
+                  type: "spring",
+                  stiffness: 100,
+                  damping: 6,
+                  delay: 0.4
+                }}
+                whileInView={{ opacity: 1, y: 0 }}
+                className="pricing-plan-box bg-white px-10 py-5 rounded-md flex flex-col gap-4 items-center">
+                <h1 className="text-2xl font-semibold capitalize">premium</h1>
+                <div className="price-content flex items-end gap-1">
+                  <span className="font-medium">$</span>
+                  <h1 className="plan-price text-5xl font-bold">75</h1>
+                  <span className="font-medium">/ per month</span>
+                </div>
+                <a
+                  href="#"
+                  className="get-started-btn text-balance font-medium text-white capitalize w-full block rounded-full py-3 text-center mt-3"
+                >
+                  get started
+                </a>
+                <ul className="pricing-details-menu flex flex-col gap-2">
+                  <li className="text-lg flex items-center gap-2">
+                    <i className="fa-solid fa-circle-check text-lg" />
+                    Web Development
+                  </li>
+                  <li className="text-lg flex items-center gap-2">
+                    <i className="fa-solid fa-circle-check text-lg" />
+                    Personal Use
+                  </li>
+                  <li className="text-lg flex items-center gap-2">
+                    <i className="fa-solid fa-circle-check text-lg" />
+                    Unlimited Projects
+                  </li>
+                  <li className="text-lg flex items-center gap-2">
+                    <i className="fa-solid fa-circle-check text-lg" />
+                    Project Management
+                  </li>
+                  <li className="text-lg flex items-center gap-2">
+                    <i className="fa-solid fa-circle-check text-lg" />
+                    27/7 Support
+                  </li>
+                  <li className="text-lg flex items-center gap-2">
+                    <i className="fa-solid fa-circle-check text-lg" />
+                    Free Cancelation
+                  </li>
+                  <li className="text-lg flex items-center gap-2">
+                    <i className="fa-solid fa-circle-check text-lg" />
+                    Basic support on Github
+                  </li>
+                  <li className="text-lg flex items-center gap-2">
+                    <i className="fa-solid fa-circle-check text-lg" />
+                    Help center access
+                  </li>
+                </ul>
+              </motion.div>
             </div>
           </div>
         </div>
