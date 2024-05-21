@@ -195,7 +195,7 @@ function Home() {
         </div>
         <ClientReview />
       </div>
-      <div className="pricing-plan-part py-24">
+      <div className="pricing-plan-part pt-24">
         <div className="container">
           <div className="title-part">
             <motion.h1
@@ -397,6 +397,46 @@ function Home() {
           </div>
         </div>
       </div>
+      <div className="contact-us-part mt-24 mb-40 py-24">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="title-part w-9/12 mx-auto flex flex-col items-center gap-4">
+                <motion.h1 initial={{ opacity: 0, x: -200 }}
+                  transition={{
+                    duration: 1,
+                    ease: "easeIn",
+                    type: "spring",
+                    stiffness: 100,
+                    damping: 6,
+                  }}
+                  whileInView={{ opacity: 1, x: 0 }} className="text-white text-4xl font-bold">Digital Solution For Your Business</motion.h1>
+                <motion.p initial={{ opacity: 0, x: -200 }}
+                  transition={{
+                    duration: 1,
+                    ease: "easeIn",
+                    type: "spring",
+                    stiffness: 100,
+                    damping: 6,
+                    delay: 0.2
+                  }}
+                  whileInView={{ opacity: 1, x: 0 }} className="text-white text-lg font-normal text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud consectetur</motion.p>
+                <motion.a initial={{ opacity: 0, x: -200 }}
+                  transition={{
+                    duration: 1,
+                    ease: "easeIn",
+                    type: "spring",
+                    stiffness: 100,
+                    damping: 6,
+                    delay: 0.4
+                  }}
+                  whileInView={{ opacity: 1, x: 0 }} href="#" className="bg-white text-blue-500 capitalize text-base font-medium rounded-full px-5 py-3 mt-3">contact us</motion.a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
     </div>
   );
 }

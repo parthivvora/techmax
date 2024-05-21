@@ -1,0 +1,38 @@
+[
+  {
+    "blogTitle": "The Biggest Trends in Technology We've Seen This Year",
+    "blogDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt",
+    "blogImage": "blog-1.jpg",
+    "date": "17 June 2024"
+  },
+  {
+    "blogTitle": "Improving Business Performance With Augmented Intelligence!",
+    "blogDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt",
+    "blogImage": "blog-2.jpg",
+    "date": "27 July 2024"
+  },
+  {
+    "blogTitle": "How Much Should You Be Spending on Business?",
+    "blogDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt",
+    "blogImage": "blog-3.jpg",
+    "date": "30 August 2024"
+  },
+  {
+    "blogTitle": "The 17 Most Misunderstood Facts About Technology",
+    "blogDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt",
+    "blogImage": "blog-4.jpg",
+    "date": "01 September 2024"
+  },
+  {
+    "blogTitle": "10 Things Most People Don't Know About Business",
+    "blogDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt",
+    "blogImage": "blog-5.jpg",
+    "date": "09 Octomber 2024"
+  },
+  {
+    "blogTitle": "The Solutions Case Study You'll Never Forget",
+    "blogDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt",
+    "blogImage": "blog-6.jpg",
+    "date": "10 Novmeber 2024"
+  }
+]
