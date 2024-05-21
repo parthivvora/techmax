@@ -7,6 +7,7 @@ import ExpertAdvice from "../components/ExpertAdvice";
 import counterData from "../data/counterData.json";
 import TeamMember from "../components/TeamMember";
 import ClientReview from "../components/ClientReview";
+import BlogCommon from "../components/BlogCommon";
 
 function Home() {
   return (
@@ -397,7 +398,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="contact-us-part mt-24 mb-40 py-24">
+      <div className="contact-us-part mt-24 py-24">
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
@@ -436,7 +437,25 @@ function Home() {
           </div>
         </div>
       </div>
-      
+      <div className="blog-part pt-24">
+        <div className="title-part">
+          <motion.h1
+            initial={{ opacity: 0, x: -200 }}
+            transition={{
+              duration: 1,
+              ease: "easeIn",
+              type: "spring",
+              stiffness: 100,
+              damping: 6,
+            }}
+            whileInView={{ opacity: 1, x: 0 }}
+            className="text-4xl font-bold leading-normal text-center capitalize mb-16"
+          >
+            blog & news
+          </motion.h1>
+        </div>
+        <BlogCommon />
+      </div>
     </div>
   );
 }
