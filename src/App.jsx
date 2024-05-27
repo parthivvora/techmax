@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Blog from "./pages/Blog";
 import apiRoutes from "./constants/apiRoutes";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path={apiRoutes.ABOUT} element={<About />} />
           <Route path={apiRoutes.SERVICE} element={<Services />} />
           <Route path={apiRoutes.BLOG} element={<Blog />} />
+          <Route path={apiRoutes.CONTACT} element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </>

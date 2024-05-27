@@ -37,7 +37,8 @@ body {
 /* --------------------------------------------- Header --------------------------------------------- */
 .navbar .login-btn,
 .home-section .pricing-plan-part .pricing-plan-box .get-started-btn,
-.blog-content-box .continue-read-btn {
+.blog-content-box .continue-read-btn,
+.contact-us-section form button {
   background-color: var(--light-blue);
   transition: 0.3s ease-in-out;
 }
@@ -363,6 +364,19 @@ body {
 }
 .about-section .progress-bar-part li h1 {
   color: var(--light-blue);
+}
+
+.contact-us-section .address-info-part {
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05), 0 5px 15px rgba(0, 0, 0, 0.03);
+  border-radius: 0.5rem;
+  border-bottom: 0.3rem solid var(--light-blue);
+}
+
+.contact-us-section form input,
+.contact-us-section form textarea {
+  border-radius: 0.3rem;
+  border-left: 2px solid #b4b7bd;
+  background-color: #f3f3f3;
 }
 
 /* --------------------------------------------- Media Query --------------------------------------------- */
