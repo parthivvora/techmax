@@ -67,7 +67,7 @@ function Footer() {
               </div>
             </div>
             <div className="col-lg-2 col-md-6 col-sm-12">
-              <div className="our-services">
+              <div className="our-services mt-14 sm:mt-0">
                 <motion.h1
                   initial={{ opacity: 0, y: -200 }}
                   transition={{
@@ -113,7 +113,7 @@ function Footer() {
               </div>
             </div>
             <div className="col-lg-2 col-md-6 col-sm-12">
-              <div className="quick-links">
+              <div className="quick-links mt-14 sm:mt-0">
                 <motion.h1
                   initial={{ opacity: 0, y: -200 }}
                   transition={{
@@ -159,7 +159,7 @@ function Footer() {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="contact-info">
+              <div className="contact-info mt-14 sm:mt-0">
                 <motion.h1
                   initial={{ opacity: 0, y: -200 }}
                   transition={{

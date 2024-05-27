@@ -319,3 +319,20 @@ body {
 .copy-right-area {
   background-color: #0e1326;
 }
+
+/* --------------------------------------------- Media Query --------------------------------------------- */
+@media (max-width: 640px) {
+  .service-part .row > div:nth-child(4),
+  .service-part .row > div:nth-child(5) {
+    margin-bottom: 1.5rem;
+  }
+  .counter-part .row > div:nth-child(-n + 3) .counter-box {
+    margin-bottom: 2rem;
+  }
+  .team-member-box {
+    margin-bottom: 1.5rem;
+  }
+  .blog-common-part .row > div:nth-child(-n + 2) .blog-content-box {
+    margin-bottom: 1.5rem;
+  }
+}

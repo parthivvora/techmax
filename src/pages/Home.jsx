@@ -24,7 +24,7 @@ function Home() {
     autoplaySpeed: 1000,
     responsive: {
       0: {
-        items: 2,
+        items: 1,
       },
       600: {
         items: 3,
@@ -66,7 +66,7 @@ function Home() {
                     damping: 6,
                   }}
                   whileInView={{ opacity: 1, x: 0 }}
-                  className="text-5xl font-bold w-11/12 leading-normal"
+                  className="text-3xl sm:text-5xl font-bold w-full sm:w-11/12 leading-normal"
                 >
                   Reliable <span>IT</span> Support And Quality{" "}
                   <span>Technology Solution</span>
@@ -81,7 +81,7 @@ function Home() {
                     damping: 6,
                   }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  className="text-xl  w-11/12 leading-normal"
+                  className="text-xl w-11/12 leading-normal"
                 >
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua,
@@ -127,6 +127,7 @@ function Home() {
                 whileInView={{ opacity: 1, x: 0 }}
                 src={heroImage}
                 alt="hero-image"
+                className="mt-[1rem] sm:mt-0"
               />
             </div>
           </div>
@@ -182,7 +183,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="team-member-part mt-32">
+      <div className="team-member-part mt-20 sm:mt-32">
         <div className="title-part">
           <motion.h1
             initial={{ opacity: 0, x: -200 }}
@@ -250,7 +251,7 @@ function Home() {
                   damping: 6,
                 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                className="pricing-plan-box bg-white px-10 py-5 rounded-md flex flex-col gap-4 items-center"
+                className="pricing-plan-box bg-white px-10 py-5 rounded-md flex flex-col gap-4 items-center mb-4 sm:mb-0"
               >
                 <h1 className="text-2xl font-semibold capitalize">startup</h1>
                 <div className="price-content flex items-end gap-1">
@@ -312,7 +313,7 @@ function Home() {
                   delay: 0.2,
                 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                className="pricing-plan-box bg-white px-10 py-5 rounded-md flex flex-col gap-4 items-center"
+                className="pricing-plan-box bg-white px-10 py-5 rounded-md flex flex-col gap-4 items-center mb-4 sm:mb-0"
               >
                 <h1 className="text-2xl font-semibold capitalize">standard</h1>
                 <div className="price-content flex items-end gap-1">
@@ -431,7 +432,7 @@ function Home() {
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
-              <div className="title-part w-9/12 mx-auto flex flex-col items-center gap-4">
+              <div className="title-part w-full sm:w-9/12 mx-auto flex flex-col items-center gap-4">
                 <motion.h1
                   initial={{ opacity: 0, x: -200 }}
                   transition={{
@@ -442,7 +443,7 @@ function Home() {
                     damping: 6,
                   }}
                   whileInView={{ opacity: 1, x: 0 }}
-                  className="text-white text-4xl font-bold"
+                  className="text-white text-3xl sm:text-4xl font-bold"
                 >
                   Digital Solution For Your Business
                 </motion.h1>

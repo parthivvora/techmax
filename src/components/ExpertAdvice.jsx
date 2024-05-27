@@ -34,7 +34,7 @@ function ExpertAdvice() {
                   damping: 6,
                 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                className="text-4xl font-bold leading-normal capitalize"
+                className="text-3xl sm:text-4xl font-bold leading-normal capitalize"
               >
                 Expert Advice to Grow Your Business
               </motion.h1>

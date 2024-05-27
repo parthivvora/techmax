@@ -18,7 +18,7 @@ function WebSolution() {
                   damping: 6,
                 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                className="text-4xl font-bold leading-normal capitalize"
+                className="text-3xl sm:text-4xl font-bold leading-normal capitalize"
               >
                 Creating Website Solutions
               </motion.h1>
@@ -138,7 +138,7 @@ function WebSolution() {
               whileInView={{ opacity: 1, y: 0 }}
               src={choose1}
               alt="about_image"
-              className="img-fluid"
+              className="img-fluid mt-[1rem] sm:mt-0"
             />
           </div>
         </div>
