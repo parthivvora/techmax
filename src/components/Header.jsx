@@ -14,7 +14,7 @@ function Header() {
           id="responsive-navbar-nav"
           className="justify-between flex flex-col items-start gap-4 sm:items-center sm:flex-row"
         >
-          <ul className="header-menus flex flex-col gap-5 sm:flex-row sm:items-center sm:mx-auto">
+          <ul className="header-menus flex flex-col gap-[1rem] sm:gap-[2rem] sm:flex-row sm:items-center sm:mx-auto">
             <li className="capitalize text-base sm:text-lg">
               <a href={apiRoutes.HOME} className="font-medium">
                 home
