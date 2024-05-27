@@ -272,6 +272,11 @@ body {
 .blog-common-part .row > div:not(:nth-child(-n + 3)) .blog-content-box {
   margin-top: 1.5rem;
 }
+
 .blog-content-box {
   box-shadow: -1px 5px 20px 0px rgb(82 90 101 / 10%);
+}
+
+.trusted-partner{
+  background-color: rgb(215, 215, 215, 0.17);
 }

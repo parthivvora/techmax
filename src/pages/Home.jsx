@@ -1,5 +1,9 @@
 import { motion } from "framer-motion";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 import counterData from "../data/counterData.json";
+import partnerData from "../data/partnerData.json";
 import heroImage from "../assets/home/home-1.png";
 import Header from "../components/Header";
 import OurService from "../components/OurService";
@@ -10,6 +14,25 @@ import ClientReview from "../components/ClientReview";
 import BlogCommon from "../components/BlogCommon";
 
 function Home() {
+  const partnerOptions = {
+    loop: true,
+    margin: 20,
+    autoplay: true,
+    dots: false,
+    autoplayTimeout: 1800,
+    autoplaySpeed: 1000,
+    responsive: {
+      0: {
+        items: 2,
+      },
+      600: {
+        items: 3,
+      },
+      1000: {
+        items: 5,
+      },
+    },
+  };
   return (
     <div className="home-section">
       <Header />
@@ -226,7 +249,8 @@ function Home() {
                   damping: 6,
                 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                className="pricing-plan-box bg-white px-10 py-5 rounded-md flex flex-col gap-4 items-center">
+                className="pricing-plan-box bg-white px-10 py-5 rounded-md flex flex-col gap-4 items-center"
+              >
                 <h1 className="text-2xl font-semibold capitalize">startup</h1>
                 <div className="price-content flex items-end gap-1">
                   <span className="font-medium">$</span>
@@ -276,17 +300,19 @@ function Home() {
               </motion.div>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12">
-              <motion.div initial={{ opacity: 0, y: -200 }}
+              <motion.div
+                initial={{ opacity: 0, y: -200 }}
                 transition={{
                   duration: 1,
                   ease: "easeIn",
                   type: "spring",
                   stiffness: 100,
                   damping: 6,
-                  delay: 0.2
+                  delay: 0.2,
                 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                className="pricing-plan-box bg-white px-10 py-5 rounded-md flex flex-col gap-4 items-center">
+                className="pricing-plan-box bg-white px-10 py-5 rounded-md flex flex-col gap-4 items-center"
+              >
                 <h1 className="text-2xl font-semibold capitalize">standard</h1>
                 <div className="price-content flex items-end gap-1">
                   <span className="font-medium">$</span>
@@ -336,17 +362,19 @@ function Home() {
               </motion.div>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-12">
-              <motion.div initial={{ opacity: 0, y: -200 }}
+              <motion.div
+                initial={{ opacity: 0, y: -200 }}
                 transition={{
                   duration: 1,
                   ease: "easeIn",
                   type: "spring",
                   stiffness: 100,
                   damping: 6,
-                  delay: 0.4
+                  delay: 0.4,
                 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                className="pricing-plan-box bg-white px-10 py-5 rounded-md flex flex-col gap-4 items-center">
+                className="pricing-plan-box bg-white px-10 py-5 rounded-md flex flex-col gap-4 items-center"
+              >
                 <h1 className="text-2xl font-semibold capitalize">premium</h1>
                 <div className="price-content flex items-end gap-1">
                   <span className="font-medium">$</span>
@@ -403,7 +431,8 @@ function Home() {
           <div className="row">
             <div className="col-sm-12">
               <div className="title-part w-9/12 mx-auto flex flex-col items-center gap-4">
-                <motion.h1 initial={{ opacity: 0, x: -200 }}
+                <motion.h1
+                  initial={{ opacity: 0, x: -200 }}
                   transition={{
                     duration: 1,
                     ease: "easeIn",
@@ -411,27 +440,44 @@ function Home() {
                     stiffness: 100,
                     damping: 6,
                   }}
-                  whileInView={{ opacity: 1, x: 0 }} className="text-white text-4xl font-bold">Digital Solution For Your Business</motion.h1>
-                <motion.p initial={{ opacity: 0, x: -200 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  className="text-white text-4xl font-bold"
+                >
+                  Digital Solution For Your Business
+                </motion.h1>
+                <motion.p
+                  initial={{ opacity: 0, x: -200 }}
                   transition={{
                     duration: 1,
                     ease: "easeIn",
                     type: "spring",
                     stiffness: 100,
                     damping: 6,
-                    delay: 0.2
+                    delay: 0.2,
                   }}
-                  whileInView={{ opacity: 1, x: 0 }} className="text-white text-lg font-normal text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud consectetur</motion.p>
-                <motion.a initial={{ opacity: 0, x: -200 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  className="text-white text-lg font-normal text-center"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud consectetur
+                </motion.p>
+                <motion.a
+                  initial={{ opacity: 0, x: -200 }}
                   transition={{
                     duration: 1,
                     ease: "easeIn",
                     type: "spring",
                     stiffness: 100,
                     damping: 6,
-                    delay: 0.4
+                    delay: 0.4,
                   }}
-                  whileInView={{ opacity: 1, x: 0 }} href="#" className="bg-white text-blue-500 capitalize text-base font-medium rounded-full px-5 py-3 mt-3">contact us</motion.a>
+                  whileInView={{ opacity: 1, x: 0 }}
+                  href="#"
+                  className="bg-white text-blue-500 capitalize text-base font-medium rounded-full px-5 py-3 mt-3"
+                >
+                  contact us
+                </motion.a>
               </div>
             </div>
           </div>
@@ -455,6 +501,52 @@ function Home() {
           </motion.h1>
         </div>
         <BlogCommon />
+      </div>
+      <div className="trusted-partner mt-24 py-20 mb-60">
+        <div className="title-part">
+          <motion.h1
+            initial={{ opacity: 0, x: 200 }}
+            transition={{
+              duration: 1,
+              ease: "easeIn",
+              type: "spring",
+              stiffness: 100,
+              damping: 6,
+            }}
+            whileInView={{ opacity: 1, x: 0 }}
+            className="text-4xl font-bold leading-normal text-center capitalize mb-10"
+          >
+            Trusted Partners
+          </motion.h1>
+        </div>
+        <div className="container">
+          <div className="row">
+            <motion.div
+              initial={{ opacity: 0, y: 200 }}
+              transition={{
+                duration: 1,
+                ease: "easeIn",
+                type: "spring",
+                stiffness: 100,
+                damping: 6,
+              }}
+              whileInView={{ opacity: 1, y: 0 }}
+              className="col-sm-12"
+            >
+              <OwlCarousel className="owl-theme" {...partnerOptions}>
+                {partnerData?.map((partner, index) => (
+                  <div className="img-box" key={index}>
+                    <img
+                      src={`${window.location.origin}/images/partner/${partner.image}`}
+                      alt="partner-image"
+                      className="img-fluid"
+                    />
+                  </div>
+                ))}
+              </OwlCarousel>
+            </motion.div>
+          </div>
+        </div>
       </div>
     </div>
   );
