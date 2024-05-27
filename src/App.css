@@ -48,7 +48,8 @@ body {
 /* --------------------------------------------- Home --------------------------------------------- */
 .home-section .hero-part .title-part h1 span,
 .service-part .service-content-box i,
-.home-section .pricing-plan-part .pricing-plan-box .plan-price {
+.home-section .pricing-plan-part .pricing-plan-box .plan-price,
+.blog-content-box .author-info .author {
   color: var(--light-blue);
 }
 
@@ -270,4 +271,7 @@ body {
 
 .blog-common-part .row > div:not(:nth-child(-n + 3)) .blog-content-box {
   margin-top: 1.5rem;
+}
+.blog-content-box {
+  box-shadow: -1px 5px 20px 0px rgb(82 90 101 / 10%);
 }

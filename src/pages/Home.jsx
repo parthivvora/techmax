@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
+import counterData from "../data/counterData.json";
 import heroImage from "../assets/home/home-1.png";
 import Header from "../components/Header";
 import OurService from "../components/OurService";
 import WebSolution from "../components/WebSolution";
 import ExpertAdvice from "../components/ExpertAdvice";
-import counterData from "../data/counterData.json";
 import TeamMember from "../components/TeamMember";
 import ClientReview from "../components/ClientReview";
 import BlogCommon from "../components/BlogCommon";
@@ -244,31 +244,31 @@ function Home() {
                     <i className="fa-solid fa-circle-check text-lg" />
                     Web Development
                   </li>
-                  <li className="text-lg flex items-center gap-2">
+                  <li className="text-lg flex items-center gap-3">
                     <i className="fa-solid fa-circle-check text-lg" />
                     Personal Use
                   </li>
-                  <li className="text-lg flex items-center gap-2">
+                  <li className="text-lg flex items-center gap-3">
                     <i className="fa-solid fa-circle-check text-lg" />
                     Unlimited Projects
                   </li>
-                  <li className="text-lg flex items-center gap-2">
+                  <li className="text-lg flex items-center gap-3">
                     <i className="fa-solid fa-circle-check text-lg" />
                     Project Management
                   </li>
-                  <li className="text-lg flex items-center gap-2 delete-detail">
+                  <li className="text-lg flex items-center gap-3 delete-detail">
                     <i className="fa-solid fa-circle-xmark text-lg" />
                     <del>27/7 Support</del>
                   </li>
-                  <li className="text-lg flex items-center gap-2 delete-detail">
+                  <li className="text-lg flex items-center gap-3 delete-detail">
                     <i className="fa-solid fa-circle-xmark text-lg" />
                     <del>Free Cancelation</del>
                   </li>
-                  <li className="text-lg flex items-center gap-2 delete-detail">
+                  <li className="text-lg flex items-center gap-3 delete-detail">
                     <i className="fa-solid fa-circle-xmark text-lg" />
                     <del>Basic support on Github</del>
                   </li>
-                  <li className="text-lg flex items-center gap-2 delete-detail">
+                  <li className="text-lg flex items-center gap-3 delete-detail">
                     <i className="fa-solid fa-circle-xmark text-lg" />
                     <del>Help center access</del>
                   </li>

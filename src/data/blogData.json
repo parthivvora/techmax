@@ -1,0 +1,38 @@
+[
+  {
+    "blogImage": "blog-1.jpg",
+    "blogTitle": "The Biggest Trends in Technology We've Seen This Year",
+    "blogDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt",
+    "blogDate": "17 June 2023"
+  },
+  {
+    "blogImage": "blog-2.jpg",
+    "blogTitle": "Improving Business Performance With Augmented Intelligence!",
+    "blogDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt",
+    "blogDate": "20 July 2023"
+  },
+  {
+    "blogImage": "blog-3.jpg",
+    "blogTitle": "The 17 Most Misunderstood Facts About Technology",
+    "blogDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt",
+    "blogDate": "30 August 2023"
+  },
+  {
+    "blogImage": "blog-4.jpg",
+    "blogTitle": "How Much Should You Be Spending on Business?",
+    "blogDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt",
+    "blogDate": "01 January 2024"
+  },
+  {
+    "blogImage": "blog-5.jpg",
+    "blogTitle": "10 Things Most People Don't Know About Business",
+    "blogDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt",
+    "blogDate": "15 February 2024"
+  },
+  {
+    "blogImage": "blog-6.jpg",
+    "blogTitle": "The Solutions Case Study You'll Never Forget",
+    "blogDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt",
+    "blogDate": "27 March 2024"
+  }
+]
