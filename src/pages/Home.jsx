@@ -12,6 +12,7 @@ import ExpertAdvice from "../components/ExpertAdvice";
 import TeamMember from "../components/TeamMember";
 import ClientReview from "../components/ClientReview";
 import BlogCommon from "../components/BlogCommon";
+import Footer from "../components/Footer";
 
 function Home() {
   const partnerOptions = {
@@ -502,7 +503,7 @@ function Home() {
         </div>
         <BlogCommon />
       </div>
-      <div className="trusted-partner mt-24 py-20 mb-60">
+      <div className="trusted-partner mt-24 py-20">
         <div className="title-part">
           <motion.h1
             initial={{ opacity: 0, x: 200 }}
@@ -548,6 +549,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
