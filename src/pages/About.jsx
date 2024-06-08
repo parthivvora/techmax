@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import aboutImage from "../assets/about/about.jpg";
+import aboutAchievingImage from "../assets/about/about-achieving.png";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Breadcrumb from "../components/Breadcrumb";
@@ -53,8 +54,7 @@ function About() {
                   whileInView={{ opacity: 1, x: 0 }}
                   className="text-3xl sm:text-4xl font-bold w-full sm:w-11/12 leading-normal"
                 >
-                  <span>Our Mission</span> Is To Make Your Business Better
-                  Through Technology.
+                  Discover The Story Behind Our Passionate | Team And Our Mission.
                 </motion.h1>
                 <motion.p
                   initial={{ opacity: 0, y: 140 }}
@@ -68,14 +68,9 @@ function About() {
                   whileInView={{ opacity: 1, y: 0 }}
                   className="text-xl w-11/12 leading-normal"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat aute irure
-                  dolor in reprehenderit in voluptate velit esse cillum dolore
-                  eu fugiat nulla pariatur.
+                  Explore The Compelling Narrative Of Our Dedicated Team And The Driving Force Behind Our Mission At Rutilant Technology. With A Passionate And Talented Group, We Are Committed To Creating A Positive Impact Through Innovation And Excellence. Join Us On Our Journey As We Strive To Make A Meaningful Difference In Development.
                 </motion.p>
-                <motion.ul
+                {/* <motion.ul
                   initial={{ opacity: 0, y: -200 }}
                   transition={{
                     duration: 1,
@@ -110,7 +105,7 @@ function About() {
                     </div>
                     <ProgressBar now={95} />
                   </li>
-                </motion.ul>
+                </motion.ul> */}
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12">
@@ -132,7 +127,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="counter-part py-32">
+      <div className="counter-part py-24 sm:py-32">
         <div className="container">
           <div className="row">
             {counterData?.map((count, index) => (
@@ -161,7 +156,80 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="team-member-part mt-20 sm:mt-32">
+      <section className='about-section-2 py-32'>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 col-md-6 col-sm-12">
+              <div className="about-img">
+                <motion.img initial={{ opacity: 0, x: -300 }}
+                  transition={{
+                    duration: 1,
+                    ease: "easeIn",
+                    type: "spring",
+                    stiffness: 100,
+                    damping: 6,
+                  }}
+                  whileInView={{ opacity: 1, x: 0 }} src={aboutAchievingImage} alt="about-achieving.png" className="w-9/12 mx-auto" />
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6 col-sm-12">
+              <div className="about-content">
+                <motion.h6 initial={{ opacity: 0, x: -200 }}
+                  transition={{
+                    duration: 1,
+                    ease: "easeIn",
+                    type: "spring",
+                    stiffness: 100,
+                    damping: 6,
+                  }}
+                  whileInView={{ opacity: 1, x: 0 }} className="text-3xl sm:text-4xl font-bold w-full sm:w-11/12 leading-normal capitalize">Achieving SUCCESS THROUGH EFFECTIVE TEAMWORK</motion.h6>
+                <div className="about-content-paragraph mt-3">
+                  <motion.p
+                    initial={{ opacity: 0, y: 140 }}
+                    transition={{
+                      duration: 1,
+                      ease: "easeIn",
+                      type: "spring",
+                      stiffness: 100,
+                      damping: 6,
+                    }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    className="text-xl w-11/12 leading-normal"
+                  >Our team of seasoned professionals is committed to delivering customised solutions tailored to your unique needs. We pride ourselves on our ability to provide exceptional service and support, ensuring that you receive the highest level of satisfaction with every project we undertake.</motion.p>
+                  <motion.p
+                    initial={{ opacity: 0, y: 140 }}
+                    transition={{
+                      duration: 1,
+                      ease: "easeIn",
+                      type: "spring",
+                      stiffness: 100,
+                      damping: 6,
+                    }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    className="text-xl w-11/12 leading-normal mt-3"
+                  >Our team of seasoned professionals is committed to delivering customised solutions tailored to your unique needs. We pride ourselves on our ability to provide exceptional service and support, ensuring that you receive the highest level of satisfaction with every project we undertake.</motion.p>
+                  <motion.p
+                    initial={{ opacity: 0, y: 140 }}
+                    transition={{
+                      duration: 1,
+                      ease: "easeIn",
+                      type: "spring",
+                      stiffness: 100,
+                      damping: 6,
+                    }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    className="text-xl w-11/12 leading-normal mt-3"
+                  >Our team of seasoned professionals is committed to delivering customised solutions tailored to your unique needs. We pride ourselves on our ability to
+                    project we undertake.</motion.p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      {/* <div className="team-member-part mt-20 sm:mt-32">
         <div className="title-part">
           <motion.h1
             initial={{ opacity: 0, x: -200 }}
@@ -179,8 +247,8 @@ function About() {
           </motion.h1>
         </div>
         <TeamMember />
-      </div>
-      <div className="client-review-part py-24 mt-20">
+      </div> */}
+      {/* <div className="client-review-part py-24 mt-20">
         <div className="title-part">
           <motion.h1
             initial={{ opacity: 0, x: -200 }}
@@ -198,8 +266,8 @@ function About() {
           </motion.h1>
         </div>
         <ClientReview />
-      </div>
-      <div className="trusted-partner mt-24 py-20">
+      </div> */}
+      {/* <div className="trusted-partner mt-24 py-20">
         <div className="title-part">
           <motion.h1
             initial={{ opacity: 0, x: 200 }}
@@ -244,7 +312,7 @@ function About() {
             </motion.div>
           </div>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </div>
   );

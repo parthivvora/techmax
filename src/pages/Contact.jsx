@@ -27,16 +27,16 @@ function Contact() {
                 <div className="address">
                   <h1 className="text-xl font-semibold capitalize">address:</h1>
                   <p className="text-lg mt-2 capitalize">
-                    4035 Heavens, Los Angeles, California
+                    418 4th Floor, The Galleria, Nr. Anupam Plaza, Yogi Chowk, Surat, Gujarat 395010
                   </p>
                 </div>
                 <div className="phone mt-5">
                   <h1 className="text-xl font-semibold capitalize">phone:</h1>
-                  <p className="text-lg mt-2 capitalize">+000 313 577 111</p>
+                  <p className="text-lg mt-2">+91 9173664515</p>
                 </div>
                 <div className="email mt-5">
                   <h1 className="text-xl font-semibold capitalize">email:</h1>
-                  <p className="text-lg mt-2 capitalize">info@example.com</p>
+                  <a href="mailto:codesquareinfotech@gmail.com" className="text-lg mt-2">codesquareinfotech@gmail.com</a>
                 </div>
               </motion.div>
             </div>
@@ -109,15 +109,8 @@ function Contact() {
               whileInView={{ opacity: 1, y: 0 }}
               className="col-sm-12"
             >
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119066.54586583708!2d72.73989512882389!3d21.1591802038092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e59411d1563%3A0xfe4558290938b042!2sSurat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1715235587634!5m2!1sen!2sin"
-                height={450}
-                style={{ border: 0 }}
-                allowFullScreen={true}
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="w-full mt-20"
-              />
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.4675497729972!2d72.87999858050414!3d21.213300531111177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fb6f677fe79%3A0xf12bda6b88d3c0de!2sCode%20Square%20Infotech%20%26%20IT%20Institute%20%7C%20Web%20development%20%7C%20App%20development%20%7C%20UI%20UX%20designing!5e0!3m2!1sen!2sin!4v1717756402651!5m2!1sen!2sin" height={450} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="w-full mt-20" />
+
             </motion.div>
           </div>
         </div>

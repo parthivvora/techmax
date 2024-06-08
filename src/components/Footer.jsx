@@ -1,10 +1,11 @@
+
 import { motion } from "framer-motion";
-import footerLogo from "../assets/logo-white.png";
+import logoImage from "../assets/logo-white.png";
 
 function Footer() {
   return (
     <>
-      <div className="footer-section py-28">
+      <div className="footer-section py-20 sm:py-28">
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-12">
@@ -19,26 +20,10 @@ function Footer() {
                     damping: 6,
                   }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  src={footerLogo}
+                  src={logoImage}
                   alt="logo.jpg"
+                  className="w-24 sm:w-36"
                 />
-                <motion.p
-                  initial={{ opacity: 0, y: 200 }}
-                  transition={{
-                    duration: 1,
-                    ease: "easeIn",
-                    type: "spring",
-                    stiffness: 100,
-                    damping: 6,
-                  }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  className="text-white opacity-90 w-96 leading-7 mt-4"
-                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  consectetur laboris.
-                </motion.p>
                 <motion.div
                   initial={{ opacity: 0, y: 200 }}
                   transition={{
@@ -95,19 +80,19 @@ function Footer() {
                   className="service-menus flex flex-col gap-3 mt-4"
                 >
                   <li className="text-white text-lg opacity-85 capitalize">
-                    IT solution
-                  </li>
-                  <li className="text-white text-lg opacity-85 capitalize">
                     web development
                   </li>
                   <li className="text-white text-lg opacity-85 capitalize">
-                    networking service
+                    NFT development
                   </li>
                   <li className="text-white text-lg opacity-85 capitalize">
-                    SEO optimization
+                    App development
                   </li>
                   <li className="text-white text-lg opacity-85 capitalize">
-                    app optimization
+                    digital marketing
+                  </li>
+                  <li className="text-white text-lg opacity-85 capitalize">
+                    UI/UX designing
                   </li>
                 </motion.ul>
               </div>
@@ -144,16 +129,16 @@ function Footer() {
                     About Us
                   </li>
                   <li className="text-white text-lg opacity-85 capitalize">
-                    Case Study
+                    services
                   </li>
                   <li className="text-white text-lg opacity-85 capitalize">
-                    Contact Us
+                    portfolio
                   </li>
+                  {/* <li className="text-white text-lg opacity-85 capitalize">
+                    blog
+                  </li> */}
                   <li className="text-white text-lg opacity-85 capitalize">
-                    Privacy Policy
-                  </li>
-                  <li className="text-white text-lg opacity-85 capitalize">
-                    Terms & Conditions
+                    contact
                   </li>
                 </motion.ul>
               </div>
@@ -188,16 +173,16 @@ function Footer() {
                 >
                   <li className="text-white text-lg flex items-center gap-2">
                     <span className="font-bold">Phone:</span>
-                    <span className="opacity-85">+000 313 577 111</span>
+                    <span className="opacity-85">+91 9173664515</span>
                   </li>
                   <li className="text-white text-lg flex items-center gap-2">
                     <span className="font-bold">Email:</span>
-                    <span className="opacity-85">demo@example.com</span>
+                    <span className="opacity-85">codesquareinfotech@gmail.com</span>
                   </li>
                   <li className="text-white text-lg capitalize flex items-center gap-2">
                     <span className="font-bold">Address:</span>
                     <span className="opacity-85">
-                      4035 Heavens, Los Angeles, California
+                      418 4th Floor, The Galleria, Nr. Anupam Plaza, Yogi Chowk, Surat, Gujarat 395010
                     </span>
                   </li>
                 </motion.ul>
@@ -222,8 +207,8 @@ function Footer() {
                 whileInView={{ opacity: 1, x: 0 }}
                 className="text-white"
               >
-                <i className="fa-regular fa-copyright" />
-                2024 Techmax - All Rights Reserved.
+                <i className="fa-regular fa-copyright pe-1" />
+                2024 Code Square Infotech - All Rights Reserved.
               </motion.p>
             </div>
           </div>

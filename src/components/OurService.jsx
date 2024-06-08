@@ -26,7 +26,7 @@ function OurService() {
               <h1 className="text-2xl font-semibold leading-normal capitalize">
                 {service.title}
               </h1>
-              <p>{service.description}</p>
+              <p>{service.description.slice(0, 150)}...</p>
               <a
                 href="#"
                 className="text-base underline font-medium leading-normal capitalize"

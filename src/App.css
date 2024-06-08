@@ -4,7 +4,9 @@
   margin: 0px;
   padding: 0px;
 }
-
+::-webkit-scrollbar {
+  width: 0px;
+}
 :root {
   --light-blue: #5e87eb;
   --text-color: #333;
@@ -394,4 +396,18 @@ body {
   .blog-common-part .row > div:nth-child(-n + 2) .blog-content-box {
     margin-bottom: 1.5rem;
   }
+  .section-4 .row div:nth-child(n + 3) .developbox {
+    margin-top: 1.2rem;
+  }
+}
+.home-section .trusted-partner-section .partner-box {
+  box-shadow: 0px 5px 20px rgb(34, 34, 129, 0.1);
+}
+
+.home-section
+  .trusted-partner-section
+  .row
+  > div:not(:nth-child(-n + 6))
+  .partner-box {
+  margin-top: 1.5rem;
 }

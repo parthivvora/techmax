@@ -16,7 +16,7 @@ function App() {
           <Route path={apiRoutes.HOME} element={<Home />} />
           <Route path={apiRoutes.ABOUT} element={<About />} />
           <Route path={apiRoutes.SERVICE} element={<Services />} />
-          <Route path={apiRoutes.BLOG} element={<Blog />} />
+          {/* <Route path={apiRoutes.BLOG} element={<Blog />} /> */}
           <Route path={apiRoutes.CONTACT} element={<Contact />} />
         </Routes>
       </BrowserRouter>

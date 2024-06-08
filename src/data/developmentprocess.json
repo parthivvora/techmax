@@ -1,0 +1,22 @@
+[
+  {
+    "processicon": "transparency.png",
+    "title": "discover",
+    "description": "Your Product Is Ready Now. After Careful Scrutinization And Working Thoroughly, Your Product Is Ready To Be Delivered."
+  },
+  {
+    "processicon": "pen-tool.png",
+    "title": "design",
+    "description": "We Tend To Follow The New Trends. So, We Would Be Working On The UI And UX That Can Attract Your Target Audience For Your Business And Implement The Design Accordingly."
+  },
+  {
+    "processicon": "web-development.png",
+    "title": "DEVELOP",
+    "description": "Development Will Be Completely In Line With Your Requirements. Our Development Process Has Been Built Upon Concerning Almost Every Development Methodology To Give Better Solution."
+  },
+  {
+    "processicon": "fast-time.png",
+    "title": "deliver",
+    "description": "To Make Sure We Are On The Right Track, We Carry Out From Regression Testing To Unit Testing To Make Sure Everything Is Up And Running As We Don’t Like To Compromise On The Services We Provide."
+  }
+]

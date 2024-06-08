@@ -1,32 +1,32 @@
 [
   {
-    "title": "IT solution",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim",
+    "title": "SOFTWARE DEVELOPMENT",
+    "description": "Software Development Is The Process Of Designing, Creating, Testing, And Maintaining Software Applications. It Involves A Range Of Activities, Including Requirements Gathering, System Design, Programming, Testing, And Deployment. Software Developers Use A Variety Of Programming Languages, Frameworks, And Tools To Build Software Applications. Some Of The Most Common Programming Languages Used In Software Development Include Java, Python, C++, And Ruby. Developers Also Use Integrated Development Environments (IDEs) Like Visual Studio Code, Eclipse, And IntelliJ IDEA To Streamline The Software Development Process.",
     "icon": "pe-7s-tools"
   },
   {
     "title": "Web Development",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim",
+    "description": "Code square Web Solutions Is A Leading Web Development Companydedicated To Crafting Innovative And Impactful Digitalexperiences. With A Team Of Seasoned Developers And Creativeminds, We Specialize In Designing And Developing Bespokewebsites, Web Applications, And E-Commerce Solutions Tailoredto Meet The Unique Needs Of Our Clients. Our Commitment Tocutting-Edge Technologies, User-Centric Design, And Agiledevelopment Methodologies Ensures The Delivery Ofhigh-Quality, Scalable, And Responsive Web Solutions. Whetheryou're A Startup Looking To Establish Your Online Presence Oran Established Business Seeking To Enhance Your Digitalfootprint, Code square Web Solutions Is Your Trusted Partner Forturning Your Vision Into A Powerful Online Reality.",
     "icon": "pe-7s-display1"
   },
   {
-    "title": "Networking Services",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim",
+    "title": "APP & WEB DEVELOPMENT",
+    "description": "Code square Mobile Solutions Is A Premier Mobile App Development Company Committed To Creating Innovative And User-Centric Mobile Applications. Our Skilled Team Of Developers Excels In Crafting Customized Solutions For IOS, Android, And Cross-Platform Applications, Ensuring Seamless Functionality And Exceptional User Experiences. From Conceptualization To Deployment, We Leverage The Latest Technologies And Industry Best Practices To Deliver High-Performance, Scalable, And Visually Stunning Mobile Apps. Whether You're A Startup Aiming To Launch A Groundbreaking App Or An Established Enterprise Seeking To Expand Your Mobile Presence, Code square Mobile Solutions Is Your Reliable Partner For Turning Ideas Into Successful And Engaging Mobile Experiences.",
     "icon": "pe-7s-share"
   },
   {
-    "title": "SEO Optimization",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim",
+    "title": "DIGITAL MARKETING",
+    "description": "Code square Leads The Way In Digital Marketing, Where Strategic Innovation Meets Impactful Results. Our Expert Team Navigates The Dynamic Digital Landscape, Offering Comprehensive Services Encompassing SEO, Social Media, And Content Marketing. From Optimizing Online Visibility To Driving Targeted Engagement, Code square's Tailored Solutions Empower Businesses To Thrive In The Digital Realm. Partner With Us To Unlock The Full Potential Of Your Online Presence, As We Drive Growth And Success Through The Art And Science Of Digital Marketing.",
     "icon": "pe-7s-graph1"
   },
   {
-    "title": "App Optimization",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim",
+    "title": "UI/UX DESSIGNIG",
+    "description": "At Code square, We Specialize In UI/UX Design To Transform Your Digital Presence Into A Captivating And User-Centric Journey. Our Expert Designers Craft Visually Stunning Interfaces And Seamless User Experiences, Ensuring Your Audience Engages Effortlessly With Your Product Or Platform. Whether It's A Website, Application, Or Any Digital Interface, Code square's UI/UX Design Services Prioritize Aesthetics, Functionality, And User Satisfaction. Partner With Us To Elevate Your Brand And Leave A Lasting Impression In The Digital Realm.",
     "icon": "pe-7s-config"
   },
   {
-    "title": "Data Recovery",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim minim",
+    "title": "NFT DEVELOPMENT COMPANY",
+    "description": "Code square NFT Solutions Offers A Comprehensive Range Of Services To Facilitate Seamless NFT Development. Our Expert Team Specializes In Designing And Deploying Custom NFT Platforms, Ensuring Secure Integration With Cutting-Edge Blockchain Technology. We Provide End-To-End Solutions, From Smart Contract Development For NFT Creation And Management To Personalized NFT Marketplace Launches. Whether You're An Artist, Business, Or Creator Looking To Tokenize And Trade Digital Assets, Our Services Prioritize Transparency, Security, And User Experience, Making Code square NFT Solutions Your Trusted Partner In Navigating The Dynamic Landscape Of Decentralized Digital Ownership.",
     "icon": "pe-7s-server"
   }
 ]

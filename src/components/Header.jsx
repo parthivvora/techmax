@@ -7,14 +7,14 @@ function Header() {
     <Navbar collapseOnSelect expand="lg" className="navbar py-4">
       <div className="container">
         <a href={apiRoutes.HOME}>
-          <img src={logoImage} alt="logo.png" className="w-40 sm:w-56" />
+          <img src={logoImage} alt="logo.png" className="w-20 sm:w-24" />
         </a>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse
           id="responsive-navbar-nav"
           className="justify-between flex flex-col items-start gap-4 sm:items-center sm:flex-row"
         >
-          <ul className="header-menus flex flex-col gap-[1rem] sm:gap-[2rem] sm:flex-row sm:items-center sm:mx-auto">
+          <ul className="header-menus flex flex-col gap-[0.5rem] sm:gap-[2rem] sm:flex-row sm:items-center sm:mx-auto mt-[0.75rem] sm:mt-0">
             <li className="capitalize text-base sm:text-lg">
               <a href={apiRoutes.HOME} className="font-medium">
                 home
@@ -30,23 +30,17 @@ function Header() {
                 services
               </a>
             </li>
-            <li className="capitalize text-base sm:text-lg">
+            {/* <li className="capitalize text-base sm:text-lg">
               <a href={apiRoutes.BLOG} className="font-medium">
                 blog
               </a>
-            </li>
+            </li> */}
             <li className="capitalize text-base sm:text-lg">
               <a href={apiRoutes.CONTACT} className="font-medium">
                 contact
               </a>
             </li>
           </ul>
-          <a
-            href="#"
-            className="px-4 py-2 login-btn rounded-full text-white capitalize font-semibold text-lg"
-          >
-            login
-          </a>
         </Navbar.Collapse>
       </div>
     </Navbar>

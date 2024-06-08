@@ -4,6 +4,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import counterData from "../data/counterData.json";
 import partnerData from "../data/partnerData.json";
+import developmentProcessData from "../data/developmentprocess.json";
 import heroImage from "../assets/home/home-1.png";
 import Header from "../components/Header";
 import OurService from "../components/OurService";
@@ -13,6 +14,7 @@ import TeamMember from "../components/TeamMember";
 import ClientReview from "../components/ClientReview";
 import BlogCommon from "../components/BlogCommon";
 import Footer from "../components/Footer";
+import apiRoutes from "../constants/apiRoutes";
 
 function Home() {
   const partnerOptions = {
@@ -37,7 +39,7 @@ function Home() {
   return (
     <div className="home-section">
       <Header />
-      <div className="hero-part py-20">
+      <div className="hero-part py-10 sm:py-20">
         <div className="container">
           <div className="row items-center">
             <div className="col-lg-6 col-md-6 col-sm-12">
@@ -83,9 +85,7 @@ function Home() {
                   whileInView={{ opacity: 1, y: 0 }}
                   className="text-xl w-11/12 leading-normal"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua,
-                  magna aliqua.
+                  Code Square Infotech Achieves Pioneering First Landing, Advancing Space Exploration. Historic Moment Unfolds As The Spacecraft Successfully Touches Down. A Significant Leap Forward In Technological Achievement.
                 </motion.p>
                 <motion.div
                   initial={{ opacity: 0, x: -200 }}
@@ -99,14 +99,14 @@ function Home() {
                   whileInView={{ opacity: 1, x: 0 }}
                   className="buttons-group flex gap-4 mt-3"
                 >
-                  <a
+                  {/* <a
                     href="#"
                     className="font-semibold px-4 py-2.5 rounded-full capitalize"
                   >
                     learn more
-                  </a>
+                  </a> */}
                   <a
-                    href="#"
+                    href={apiRoutes.CONTACT}
                     className="font-semibold px-4 py-2.5 rounded-full capitalize text-white"
                   >
                     Contact us
@@ -145,16 +145,16 @@ function Home() {
               damping: 6,
             }}
             whileInView={{ opacity: 1, x: 0 }}
-            className="text-4xl font-bold leading-normal text-center capitalize mb-16"
+            className="text-4xl font-bold leading-normal text-center capitalize mb-10 sm:mb-16"
           >
             our services
           </motion.h1>
         </div>
         <OurService />
       </div>
-      <WebSolution />
-      <ExpertAdvice />
-      <div className="counter-part py-32">
+      {/* <WebSolution />
+      <ExpertAdvice /> */}
+      <div className="counter-part py-24 sm:py-32 mt-24">
         <div className="container">
           <div className="row">
             {counterData?.map((count, index) => (
@@ -183,7 +183,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="team-member-part mt-20 sm:mt-32">
+      {/* <div className="team-member-part mt-20 sm:mt-32">
         <div className="title-part">
           <motion.h1
             initial={{ opacity: 0, x: -200 }}
@@ -201,8 +201,8 @@ function Home() {
           </motion.h1>
         </div>
         <TeamMember />
-      </div>
-      <div className="client-review-part py-24 mt-20">
+      </div> */}
+      {/* <div className="client-review-part py-24 mt-20">
         <div className="title-part">
           <motion.h1
             initial={{ opacity: 0, x: -200 }}
@@ -220,8 +220,8 @@ function Home() {
           </motion.h1>
         </div>
         <ClientReview />
-      </div>
-      <div className="pricing-plan-part pt-24">
+      </div> */}
+      {/* <div className="pricing-plan-part pt-24">
         <div className="container">
           <div className="title-part">
             <motion.h1
@@ -427,8 +427,55 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="contact-us-part mt-24 py-24">
+      </div> */}
+
+      <section className="section-4 py-24">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="title-part mx-auto flex flex-col items-center gap-4">
+                <motion.h1
+                  initial={{ opacity: 0, x: -200 }}
+                  transition={{
+                    duration: 1,
+                    ease: "easeIn",
+                    type: "spring",
+                    stiffness: 100,
+                    damping: 6,
+                  }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  className="text-3xl sm:text-4xl font-bold mb-14"
+                >
+                  Digital Solution For Your Business
+                </motion.h1>
+              </div>
+            </div>
+            {developmentProcessData.map((item, index) => (
+              <div className="col-sm-12 col-md-3 col-lg-3" key={index}>
+                <motion.div initial={{ opacity: 0, y: -200 }}
+                  transition={{
+                    duration: 1,
+                    ease: "easeIn",
+                    type: "spring",
+                    stiffness: 100,
+                    damping: 6,
+                  }}
+                  whileInView={{ opacity: 1, y: 0 }} className="developbox">
+                  <img
+                    src={`${window.location.origin}/images/home/${item.processicon}`}
+                    alt={item.image}
+                    className="w-16"
+                  />
+                  <h6 className="uppercase font-semibold text-3xl mt-3">{item.title}</h6>
+                  <p className="font-medium text-lg opacity-80 mt-1">{item.description}</p>
+                </motion.div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* <div className="contact-us-part py-24">
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
@@ -484,8 +531,8 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="blog-part pt-24">
+      </div> */}
+      {/* <div className="blog-part pt-24">
         <div className="title-part">
           <motion.h1
             initial={{ opacity: 0, x: -200 }}
@@ -503,28 +550,12 @@ function Home() {
           </motion.h1>
         </div>
         <BlogCommon />
-      </div>
-      <div className="trusted-partner mt-24 py-20">
-        <div className="title-part">
-          <motion.h1
-            initial={{ opacity: 0, x: 200 }}
-            transition={{
-              duration: 1,
-              ease: "easeIn",
-              type: "spring",
-              stiffness: 100,
-              damping: 6,
-            }}
-            whileInView={{ opacity: 1, x: 0 }}
-            className="text-4xl font-bold leading-normal text-center capitalize mb-10"
-          >
-            Trusted Partners
-          </motion.h1>
-        </div>
+      </div> */}
+      {/* <div className="trusted-partner-section py-24">
         <div className="container">
-          <div className="row">
-            <motion.div
-              initial={{ opacity: 0, y: 200 }}
+          <div className="title-part">
+            <motion.h1
+              initial={{ opacity: 0, x: -200 }}
               transition={{
                 duration: 1,
                 ease: "easeIn",
@@ -532,24 +563,33 @@ function Home() {
                 stiffness: 100,
                 damping: 6,
               }}
-              whileInView={{ opacity: 1, y: 0 }}
-              className="col-sm-12"
+              whileInView={{ opacity: 1, x: 0 }}
+              className="text-4xl font-bold leading-normal text-center capitalize mb-16"
             >
-              <OwlCarousel className="owl-theme" {...partnerOptions}>
-                {partnerData?.map((partner, index) => (
-                  <div className="img-box" key={index}>
-                    <img
-                      src={`${window.location.origin}/images/partner/${partner.image}`}
-                      alt="partner-image"
-                      className="img-fluid"
-                    />
-                  </div>
-                ))}
-              </OwlCarousel>
-            </motion.div>
+              Trusted Partners
+            </motion.h1>
+          </div>
+          <div className="row">
+            {
+              partnerData?.map((partner, index) => (
+                <div className="col-lg-2 col-md-2 col-sm-12" key={index}>
+                  <motion.div initial={{ opacity: 0, y: -200 }}
+                    transition={{
+                      duration: 1,
+                      ease: "easeIn",
+                      type: "spring",
+                      stiffness: 100,
+                      damping: 6,
+                    }}
+                    whileInView={{ opacity: 1, y: 0 }} className="partner-box">
+                    <img src={`${window.location.origin}/images/partner/${partner?.image}`} alt="partner-image" />
+                  </motion.div>
+                </div>
+              ))
+            }
           </div>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </div>
   );

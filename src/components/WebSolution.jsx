@@ -34,8 +34,7 @@ function WebSolution() {
                 whileInView={{ opacity: 1, x: 0 }}
                 className="text-lg"
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                The goal of a website solution is to provide a complete, end-to-end service that addresses all aspects of building and operating a website, tailored to meet the specific needs and objectives of a business or individual.
               </motion.p>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
                 <motion.li

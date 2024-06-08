@@ -50,8 +50,7 @@ function ExpertAdvice() {
                 whileInView={{ opacity: 1, y: 0 }}
                 className="text-lg"
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Growing a business is a multifaceted endeavor that requires a strategic approach, a deep understanding of your market, and a commitment to continuous improvement. By focusing on these expert strategies, you can position your business for sustainable growth and long-term success. Remember, adaptability and customer-centricity are key to thriving in a competitive landscape.
               </motion.p>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
                 <motion.li
@@ -94,20 +93,6 @@ function ExpertAdvice() {
                   whileInView={{ opacity: 1, x: 0 }}
                   className="text-lg font-medium px-4 py-2.5"
                 >
-                  iOS apps (Swift)
-                </motion.li>
-                <motion.li
-                  initial={{ opacity: 0, x: -200 }}
-                  transition={{
-                    duration: 1,
-                    ease: "easeIn",
-                    type: "spring",
-                    stiffness: 100,
-                    damping: 6,
-                  }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  className="text-lg font-medium px-4 py-2.5"
-                >
                   Android apps (Java)
                 </motion.li>
                 <motion.li
@@ -123,20 +108,6 @@ function ExpertAdvice() {
                   className="text-lg font-medium px-4 py-2.5"
                 >
                   Managed IT Service
-                </motion.li>
-                <motion.li
-                  initial={{ opacity: 0, x: -200 }}
-                  transition={{
-                    duration: 1,
-                    ease: "easeIn",
-                    type: "spring",
-                    stiffness: 100,
-                    damping: 6,
-                  }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  className="text-lg font-medium px-4 py-2.5"
-                >
-                  Cloud Services
                 </motion.li>
               </ul>
             </div>
